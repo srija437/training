@@ -1,12 +1,14 @@
 public class Student {
     String name;
     int age;
-    Student(String n, int a){
+
+    Student(String n, int a) {
         name = n;
         age = a;
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Student obj = new Student("Srija", 20);
-        System.out.println(obj.name+ "\n"+obj.age);
+        System.out.println(obj.name + "\n" + obj.age);
     }
 }
